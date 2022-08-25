@@ -1,0 +1,49 @@
+table.main, table.projects
+{
+  width: auto;
+  border-collapse:collapse;
+  margin: 0.5em 0.5em;
+font-size: 0.9em;
+
+}
+
+table.update
+{
+  width: auto;
+  border-collapse:collapse;
+  margin: 0px;
+  border: 0px;
+}                                                                                                                             
+table.main td,table.main th
+{
+  /* background-color: #fff; */
+  border: 0px solid #fff;
+  padding: 0.2em 0.2em 0.5em 0.5em;
+  vertical-align: top;
+  text-align: left;
+}
+
+table.projects td, table.projects th
+{
+  background-color: #fff;
+  border: 0px solid #fff;
+  padding: 0.2em 0.2em 0.5em 0.5em;
+}
+
+table.main img
+{
+margin: 0.1em 0.5em 0.5em 0.5em;
+  border: 0.05em solid #ccc;
+
+}
+                                                                                                                              
+table.main .columnc, table.projects .columnc, table.update .columnc
+{
+  text-align: center;
+}
+
+table.main .columnr, table.projects .columnr, table.update .columnr
+{
+  text-align: right;
+}
+

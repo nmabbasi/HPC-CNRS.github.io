@@ -1,0 +1,325 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<title>HPC | CNRS, TOURS, France</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="Nasir CV" name="description">
+<meta name="keywords" content="Nasir Mahmood Abbasi, Research Engineer Bioinformatics">
+<meta name="author" content="Nasir">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta name="description" content="HPC">
+
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/core.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="static/img/favicon.ico">
+
+
+
+
+
+
+    <script type="text/javascript" src="Nasir_CV/js/openInNewWindow.js"></script>
+    <script type="text/javascript" src="Nasir_CV/js/toggle.js"></script>
+   <style media="all" type="text/css">
+
+
+
+   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+   <!--[if lt IE 9]>
+     <script src="js/html5shiv.js"></script>
+   <![endif]-->
+
+   <link rel="icon" href="static/img/favicon.ico"> -->
+
+
+   @import url(main.css);
+    .Estilo1 {
+	color: #0000FF;
+	font-weight: bold;
+	font-style: italic;
+}
+   .Estilo2 {font-style: italic; color: #0000FF;}
+   </style>
+
+   <!--[if IE]>
+<style>
+#right {
+        margin-left: 15px;
+  }
+  </style>
+      <![endif]-->
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28510826-1', 'auto');
+  ga('send', 'pageview');
+
+
+
+
+</script>
+</head>
+
+  <body>
+    <div class="container">
+
+      <div class="masthead">
+
+<!-- NAVBAR
+    ================================================== -->
+            <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner pull-center">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav nav-tabs navbar-nav  ">
+                <li ><a href="index.html"><b>HOME</b></a></li>
+
+
+                <li role="presentation" class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" id="drop1" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b> High Performance Computing (HPC)</b> <b span class="caret"></span></a></b>
+
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                          <li role="presentation"> <a role="menuitem" tabindex="-1" href="connections.html">Connection</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1"href="BC.html">Basic commands</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1" href="ss.html">Submission Scripts</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1"href="CM.html">Custom Module</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1" href="conda.html">Conda on a Cluster</a></li>
+
+                      </ul>
+                    </li>
+            <!--    <li><a href="index.html">Other Research Computing</a></li> -->
+            <!--     <li><a href="index.html">Recommendations</a></li> -->
+          <!--      <li><a href="index.html">Nasir Activities</a></li> -->
+<li> <a href="support.html"><b>Support</b></a></li>
+                <li> <a href="QR.html"><b>Question/Requests</b></a></li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <html style="margin-top:20">
+    	<head>
+    		<title>
+    			nmabbasi
+    		</title>
+    	</head>
+
+
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="generator" content="pandoc" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+      <title>HOWTO</title>
+      <style type="text/css">
+          code{white-space: pre-wrap;}
+          span.smallcaps{font-variant: small-caps;}
+          span.underline{text-decoration: underline;}
+          div.column{display: inline-block; vertical-align: top; width: 50%;}
+      </style>
+    </head>
+    <body>
+
+
+      <div class="page-header">
+    <h1>Custom Modules</h1>
+    </div>
+
+    <div class="container-fluid">
+
+    <p>
+    After installing an application, variables such as <code>PATH</code> and <code>LD_LIBRARY_PATH</code> must be set in order to call the application from any directory.
+
+    The preferred method of setting the environment is to use the <code>module load</code> command.  Typing <code>module avail</code> shows the modules installed by staff that are available system wide.</p>
+    <p> Users may also create their own custom modules.
+    </p>
+
+    <h2><a name="create"></a>Creating a custom module</h2>
+    Here is the general procedure to create a module for user maintained software.
+    <ul>
+    <li>Make a directory for the module files:
+      <p></p>
+    <pre>mkdir /usr/local/usrapps/$GROUP/modulefiles</pre>
+    </li>
+    <li>
+    In the <b><i>modulefiles</b></i> directory, make a directory for each software, e.g.,
+    <p></p>
+    <pre>mkdir /usr/local/usrapps/$GROUP/modulefiles/appname</pre>
+    </li>
+    <li>In the directory <b><i>appname</b></i>, create a text file appropriately named to indicate version number and, if applicable, the compiler version.  The staff naming convention for modules is generally
+    <br>
+    <i><b>appname/[app version number]-[name and version of compiler]</i></b>
+    </li>
+    <li>
+    Module files start with the line
+    <p></p>
+    <pre>#%Module</pre>
+    followed by definitions for the environment variables.
+    To see examples of how to define the environment variables, see the contents of various staff created modules here:
+    <b><i>/usr/local/apps/modulefiles</b></i>.
+    For an example of a more complex module file, see one of the Intel modules, e.g.,
+    <b><i>/opt/intel/modulefiles/intel/2017.1.132</b></i>.
+    </li>
+    <li>
+    The default module can be set by creating a text file called <i><b>.version</i></b> in the directory
+    <i><b>/usr/local/usrapps/$GROUP/modulefiles/appname/</i></b>
+    containing
+    <p></p>
+    <pre>
+    #%Module
+    set ModulesVersion [app version number]-[name and version of compiler]</pre>
+    </li>
+    </ul>
+
+    <h2><a name="load"></a>Loading a custom module</h2>
+
+    <p>
+    To load the module, the whole path may be specified
+    <p></p>
+    <pre>module load /usr/local/usrapps/$GROUP/modulefiles/appname/[app version number]-[name and version of compiler]</pre>
+    </p>
+
+    <p>
+    Alternatively, the path to the modulefiles can be added by doing the following. (Do not add a slash '/' after <i><b>modulefiles</i></b>.)
+    <p></p>
+    <pre>module use --append /usr/local/usrapps/$GROUP/modulefiles</pre>
+    After doing <code>module use --append</code>, the custom modules should be visible when typing <code>module avail</code>, and then modules may be loaded as usual:
+    <p></p>
+    <pre>module load appname</pre>
+    </p>
+    </p>
+
+    <h2><a name="example"></a>Example</h2>
+    <p>
+    Here is a full example of creating a module.  This was done to install and create a module for SPAdes in the software group <b>bioinfo</b>.  (Only members of <b>bioinfo</b> can access this module.)
+    </p>
+    <h3><a name="install"></a>Install the application</h3>
+    <p>
+    The following was done to install SPAdes:
+    <p></p>
+    <pre>
+    mkdir /usr/local/usrapps/bioinfo/spades
+    cd /usr/local/usrapps/bioinfo/spades
+    wget http://cab.spbu.ru/files/release3.14.0/SPAdes-3.14.0-Linux.tar.gz
+    tar -xzf SPAdes-3.14.0-Linux.tar.gz
+    rm SPAdes-3.14.0-Linux.tar.gz
+    </pre>
+    </p>
+    <p>
+    This results in a directory called <b><i>SPAdes-3.14.0-Linux</b></i>, containing the directories
+    <p></p>
+    <pre>
+    bin     #contains the executables
+    share   #often contains documentation
+    </pre>
+    </p>
+    <h3><a name="create"></a>Create the module</h3>
+    <p>
+    To create the module, first create the <i><b>modulefiles</i></b> and <i><b>appname</i></b> directories:
+    <p></p>
+    <pre>
+    mkdir /usr/local/usrapps/bioinfo/modulefiles
+    cd /usr/local/usrapps/bioinfo/modulefiles
+    mkdir spades
+    cd spades
+    </pre>
+    SPAdes was downloaded as a binary executable rather than being compiled; therefore, the naming convention is <i><b>appname/[app version number]</i></b>.   The version number was <b>3.14.0</b>.
+    </p>
+    <p>
+    From the directory <i><b>/usr/local/usrapps/bioinfo/modulefiles/spades</i></b>, create a text file called <b><i>3.14.0</b></i> containing
+    <p></p>
+    <pre>
+    #%Module
+    prepend-path PATH {/usr/local/usrapps/bioinfo/spades/SPAdes-3.14.0-Linux/bin};
+    </pre>
+    </p>
+    <h3><a name="default"></a>Set the default module</h3>
+    <p>
+    In case there are or will be other versions of SPAdes installed, set <b>3.14.0</b> as default by creating a file <b><i>/usr/local/usrapps/bioinfo/modulefiles/spades/.version</b></i> containing
+    <p></p>
+    <pre>
+    #%Module
+    set ModulesVersion 3.14.0
+    </pre>
+    </p>
+    <h3><a name="default"></a>Call the module</h3>
+    <p>
+    The module for SPAdes may be called from the command line or from an LSF batch script by doing
+    <p></p>
+    <pre>
+module load /usr/local/usrapps/bioinfo/modulefiles/spades/3.14.0
+    </pre>
+    or by doing
+    <p></p>
+    <pre>
+module use --append /usr/local/usrapps/bioinfo/modulefiles
+module load spades
+    </pre>
+    </p>
+    <h3><a name="login"></a>Set the modules path to be available on login</h3>
+    <p>
+    To make the modules available upon logging in, without having to specify the full path or doing <code>module use</code>, add the following to the <b><i>~/.tcsh</b></i> or <b><i>~/.bashrc</b></i> file:
+<p></p>
+    <pre>
+#User defined modules
+module use --append /usr/local/usrapps/bioinfo/modulefiles
+    </pre>
+    </p>
+    <p>
+    Usually modifications to the login files (.tcsh, .bashrc., .login) are discouraged, but this an appropriate use case for modifying those files.
+    </p>
+<br><hr><br>
+    </div>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap-dropdown.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script>
+    $(document).ready(function() {
+        $('#drop1').dropdown();
+    });
+    </script>
+
+  </body>
+  </html>

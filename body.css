@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	/* font-family: verdana, arial, helvetica, sans-serif; */
+	/* color: #a0a0a0; */
+	background: url("images/bg.jpg");
+   line-height: 140%; 
+   font-style: normal;
+   font-size: 0.9em;
+/* font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;*/
+font-family: sans-serif;
+	}
+
+h3
+{
+margin: 0em 0em;
+color: #555;
+  font-size: 1em;
+  font-weight: bold;
+font-variant: normal;
+ padding: 0.5em 0.5em 0em 0em;
+}
+h1
+{
+  margin: 0em 0em;
+color: #555;
+  font-size: 1.4em;
+  font-weight: bold;
+font-variant: small-caps;
+text-align: center;
+padding: 0.1em;
+}
+h2
+{
+  margin: 0.5em 0em;
+color: #555;
+  font-size: 1.2em;
+  font-weight: bold;
+font-variant: normal;
+text-align: left;
+padding: 0.1em 0em;
+}
+
+img
+{
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  border: 0;
+}
+
+.liC1
+{
+ /*  background-color: #e3eaef; */
+}
+
+.liC2
+{
+  /* background-color: #e3eaef; */
+}
+
+.liCH
+{
+  background: #e3eaef;
+  color: #000;
+  font-variant: small-caps;
+}
+
+.mC1
+{
+  /* background-color: #fff; */
+}
+
+.mC2
+{
+/*   background-color: #fff;*/
+}
+
+.mCH
+{
+  /* background-color: #dedeef; */
+}
+
+
+.clear {
+    clear:both;
+    height:1px;
+    overflow:hidden;
+  }

@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<title>HPC | CNRS, TOURS, France</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="Nasir CV" name="description">
+<meta name="keywords" content="Nasir Mahmood Abbasi, Research Engineer Bioinformatics">
+<meta name="author" content="Nasir">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta name="description" content="HPC">
+
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/core.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="static/img/favicon.ico">
+
+
+
+
+
+
+    <script type="text/javascript" src="Nasir_CV/js/openInNewWindow.js"></script>
+    <script type="text/javascript" src="Nasir_CV/js/toggle.js"></script>
+   <style media="all" type="text/css">
+
+
+
+   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+   <!--[if lt IE 9]>
+     <script src="js/html5shiv.js"></script>
+   <![endif]-->
+
+   <link rel="icon" href="static/img/favicon.ico"> -->
+
+
+   @import url(main.css);
+    .Estilo1 {
+	color: #0000FF;
+	font-weight: bold;
+	font-style: italic;
+}
+   .Estilo2 {font-style: italic; color: #0000FF;}
+   </style>
+
+   <!--[if IE]>
+<style>
+#right {
+        margin-left: 15px;
+  }
+  </style>
+      <![endif]-->
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28510826-1', 'auto');
+  ga('send', 'pageview');
+
+
+
+
+</script>
+</head>
+
+  <body>
+    <div class="container">
+
+      <div class="masthead">
+
+<!-- NAVBAR
+    ================================================== -->
+            <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner pull-center">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav nav-tabs navbar-nav  ">
+                <li ><a href="index.html"><b>HOME</b></a></li>
+
+
+                <li role="presentation" class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" id="drop1" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b> High Performance Computing (HPC)</b> <b span class="caret"></span></a></b>
+
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                          <li role="presentation"> <a role="menuitem" tabindex="-1" href="connections.html">Connection</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1"href="BC.html">Basic commands</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1" href="ss.html">Submission Scripts</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1"href="CM.html">Custom Module</a></li>
+                          <li role="presentation"> <a role="menuitem" tabindex="-1" href="conda.html">Conda on a Cluster</a></li>
+
+                      </ul>
+                    </li>
+            <!--    <li><a href="index.html">Other Research Computing</a></li> -->
+            <!--     <li><a href="index.html">Recommendations</a></li> -->
+          <!--      <li><a href="index.html">Nasir Activities</a></li> -->
+<li> <a href="support.html"><b>Support</b></a></li>
+                <li> <a href="QR.html"><b>Question/Requests</b></a></li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <html style="margin-top:20">
+    	<head>
+    		<title>
+    			nmabbasi
+    		</title>
+    	</head>
+
+
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="generator" content="pandoc" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+      <title>HOWTO</title>
+      <style type="text/css">
+          code{white-space: pre-wrap;}
+          span.smallcaps{font-variant: small-caps;}
+          span.underline{text-decoration: underline;}
+          div.column{display: inline-block; vertical-align: top; width: 50%;}
+      </style>
+    </head>
+    <body>
+
+
+    <h1 id="connection"><span class="header-section-number"></span> Connection</h1>
+    <br><hr><br>
+    <h2 id="ssh-keys"><span class="header-section-number"></span> SSH keys</h2>
+    <p>Access is not available with a password, only with SSH keys. In short. We create a pair of keys, one public, one private. The public key is saved on the login node and the private key stays on the user’s host. Connection only works if private and public keys match.</p>
+    <h2 id="linux-mac"><span class="header-section-number"></span> Linux / mac</h2>
+    <h3 id="generating-a-pair-of-keys"><span class="header-section-number"></span> Generating a pair of keys</h3>
+    <p>The following command may require a package install. It’s called <em>openssh-client</em> on debian/ubuntu. Also <em>esmeralda</em> is the name of the key. You can name it whatever you want, but you have to stay consistent with the <em>config</em> file (few sections below).</p>
+    <pre><code>ssh-keygen -t rsa -f esmeralda</code></pre>
+    <p>This asks for a <em>passphrase</em> twice and creates 2 files: <em>esmeralda</em> and <em>esmeralda.pub</em>. The first one is the private key, the second one is the public key.</p>
+    <h3 id="what-to-do-with-the-keys"><span class="header-section-number"></span> What to do with the keys</h3>
+    <p>Send only the public key to one of the administrators: <em>olivier.thibault<span style="display:none">foo</span><span class="citation" data-cites="univ-tours.fr">@univ-tours.fr</span></em>. Keep the public key somewhere, for example in <em>~/.ssh/</em>.</p>
+    <p>The private key must be in the <em>~/.ssh/</em> folder (which must be created if it does not exist). Note that every host destined to connect to the cluster will require this private key (along with the <em>config</em> file, see below).</p>
+    <h3 id="connecting-with-ssh"><span class="header-section-number"></span> Connecting with SSH</h3>
+    <p>If you want to run graphical applications from outside the university’s network, see <a href="#connecting-with-nx">Connecting with NX</a>. If you’re not a console enthusiast and wish to have a graphical desktop, also see <a href="#connecting-with-nx">Connecting with NX</a>.</p>
+    <h4 id="from-inside-the-universitys-network"><span class="header-section-number"></span> From inside the university’s network</h4>
+    <p>Add these lines to the <em>~/.ssh/config</em> file, replacing <em>LOGIN</em> by the login name the administrator gave you:</p>
+    <pre><code>Host esmeralda
+        Hostname 10.195.17.215
+        User LOGIN
+        IdentityFile ~/.ssh/esmeralda</code></pre>
+    <p>Explanations. What is given on the <em>Host</em> line is an alias, and the options that follow this line will only be used if the alias is recognized by <em>ssh</em>. So this will work:</p>
+    <pre><code>    ssh esmeralda</code></pre>
+    <p>But the following will <strong>not</strong> work, because the <em>IdentityFile</em> option will not be used:</p>
+    <pre><code>    ssh LOGIN@10.195.17.215</code></pre>
+    <p>The alias <em>esmeralda</em> can be changed to anything you want. The <em>IdentityFile</em> line tells <em>ssh</em> to connect using the given private key.</p>
+    <h4 id="from-outside-the-universitys-network"><span class="header-section-number"></span> From outside the university’s network</h4>
+    <p>Request VPN access to <em>olivier.thibault<span style="display:none">foo</span><span class="citation" data-cites="univ-tours.fr">@univ-tours.fr</span></em>, then follow the instructions given <a href="https://intranet.univ-tours.fr/ressources/direction-des-systemes-d-information/acces-a-distance-securise-vpn--477933.kjsp?RH=INTRANET">here</a>.</p>
+    <p>If you are anti-<em>gnome</em> or anti-<em>network-manager</em>, you can also</p>
+    <ul>
+    <li>install <em>openvpn</em>,</li>
+    <li>download the configuration files at the address above,</li>
+    <li>extract the archive and move inside (with <em>cd</em>),</li>
+    <li><p>give yourself root privileges and run:</p>
+    <p>openvpn vpn-univ-TCP-443.ovpn</p></li>
+    </ul>
+    <p>Once connected, refer to the previous section.</p>
+    <h2 id="windows"><span class="header-section-number"></span> Windows</h2>
+    <p>Download <a href="https://download.mobatek.net/1102018093083521/MobaXterm_Installer_v11.0.zip"><em>MobaXterm</em></a> and install it.</p>
+    <h3 id="generating-a-pair-of-keys-1"><span class="header-section-number"></span> Generating a pair of keys</h3>
+
+    <p>Run <em>MobaXterm</em>, click on <em>Start local terminal</em> and run:</p>
+      <pre><code>ssh-keygen -t rsa -f esmeralda</code></pre>
+
+      <img src="M1.png" alt="MobXterm" width="1000" height="1100">
+      <p></p>
+    <p>This asks for a <em>passphrase</em> twice and creates 2 files: <em>esmeralda</em> and <em>esmeralda.pub</em>. The first one is the private key, the second one is the public key. These two files must be in the <em>C:\Users\XXX\Documents\MobaXterm\home\</em> (<em>XXX</em> being your user name) folder.</p>
+    <h3 id="what-to-do-with-the-keys-1"><span class="header-section-number"></span> What to do with the keys</h3>
+    <p>Send only the public key to one of the administrators: <em>olivier.thibault<span style="display:none">foo</span><span class="citation" data-cites="univ-tours.fr">@univ-tours.fr</span></em>. Keep the keys where they are.</p>
+    <p>Note that every host destined to connect to the cluster will require this private key.</p>
+    <h3 id="connecting-with-ssh-1"><span class="header-section-number"></span> Connecting with SSH</h3>
+    <p>If you want to run graphical applications from outside the university’s network, see <a href="#connecting-with-nx">Connecting with NX</a>. If you’re not a console enthusiast and wish to have a graphical desktop, also see <a href="#connecting-with-nx">Connecting with NX</a>.</p>
+    <h4 id="from-inside-the-universitys-network-1"><span class="header-section-number"></span> From inside the university’s network</h4>
+    <p>In the <em>MobaXterm</em> window.</p>
+    <ul>
+    <li>Click on <em>Session</em> (upper left corner), then <em>SSH</em> (same),</li>
+    <li>Fill the <em>Remote Host</em> field with <em>10.195.17.215</em>.</li>
+    <li>Tick the <em>Specify username</em> box and write the login name the administrator gave you.</li>
+    <li>In the <em>Advanced SSH settings</em> tab, tick the <em>Use private key</em> box and set its location.</li>
+    <li>Click <em>OK</em>.</li>
+    <li>A new session should appear in the left panel, double-click it to connect.</li>
+<p> </p>
+  <img src="M3.png" alt="MobXterm" width="900" height="900">
+  <p> </p>
+    </ul>
+
+    <h4 id="from-outside-the-universitys-network-1"><span class="header-section-number"></span> From outside the university’s network</h4>
+    <p>Request VPN access to <em>olivier.thibault<span style="display:none">foo</span><span class="citation" data-cites="univ-tours.fr">@univ-tours.fr</span></em>, then follow the instructions given <a href="https://intranet.univ-tours.fr/ressources/direction-des-systemes-d-information/acces-a-distance-securise-vpn--477933.kjsp?RH=INTRANET">here</a>.</p>
+    <p>Once connected, refer to the previous section.</p>
+    <h3 id="file-transfer"><span class="header-section-number"></span> File transfer</h3>
+    <p>Once connected with <em>MobaXterm</em>, one can drag and drop files in the left panel.</p>
+    <h2 id="connecting-with-nx"><span class="header-section-number"></span> Connecting with NX</h2>
+    <p>Install <em>x2goclient</em>. It may be a package for your linux/mac distribution, or it can be downloaded (also for windows) <a href="https://wiki.x2go.org/doku.php/download:start">here</a>.</p>
+    <ul>
+    <li>Click on <em>Session</em>, then <em>New session…</em>.</li>
+    <li>Change <em>Session name</em> if you want.</li>
+    <li>Write 10.195.17.215 in the <em>Host</em> field.</li>
+    <li>Fille the <em>Login</em> field.</li>
+    <li>Set the location of your private key in the <em>Use RSA/DSA key for ssh connection</em> field.</li>
+    <li>In the <em>Session type</em> box, either choose
+    <ul>
+    <li><em>XFCE</em> for a graphical desktop,</li>
+    <li><em>Single application</em>, then <em>Terminal</em> in the right drop-down menu.</li>
+    </ul></li>
+    <li>Click <em>Ok</em>. The session should appear in the right panel. Click on it to connect.</li>
+    <p></p>
+    <img src="X2GO.png" alt="MobXterm" width="800" height="900">
+      <p></p>
+    </ul>
+    <p>If you are outside the university’s network, you must first connect to the VPN (see <a href="#depuis-lext&eacuterieur-du-r&eacuteseau">linux/mac</a> or <a href="#depuis-lext&eacuterieur-du-r&eacuteseau-1">windows</a>).</p>
+
+
+
+    		<br><hr><br>
+    	</body>
+    </html>
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap-dropdown.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script>
+    $(document).ready(function() {
+        $('#drop1').dropdown();
+    });
+    </script>
+
+  </body>
+  </html>

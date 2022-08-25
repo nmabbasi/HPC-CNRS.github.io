@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wang Lab | Genomics | Hong Kong University of Science and Technology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Wang Lab, Genomics, Hong Kong University of Science and Technology" name="description">
+    <meta name="keywords" content="Jiguang Wang, Hong Kong University of Science and Technology, Data Mining, Precision Medicine, Cancer Evolution, Complex Network, Systems Biology, Computational Biology, Bioinformatics">
+    <meta name="author" content="Jiguang">
+    
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/core.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    
+    <link rel="icon" href="static/img/favicon.ico">
+
+  </head>
+  <body>
+    
+    <div class="container">
+
+      <div class="masthead">
+        <div class="row-fluid">
+        <div class="span4">
+        <img class="pull-left" src="static/img/lab_logo.png" title="Wang Lab: Home" alt="Wang Lab Home" border="0" />
+        </div>
+        <div class="span8">
+            <div class="row pull-right">
+        <div class="span5">
+                              </div>  
+        <div class="span3">
+
+            </div>
+        <div class="span100">
+        <a><img class="pull-right" src="static/img/25A_Logo.jpg" alt="Hong Kong University of Science and Technology"/></a>
+  <a href="http://www.ust.hk/" target="_blank">
+    <img class="pull-right" src="static/img/HKUST_logo.jpg" alt="Hong Kong University of Science and Technology"/></a>
+    
+            </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner pull-center">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">People</a></li>
+                <li class="dropdown">
+                    <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> Research <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cancer Genomics</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">noncoding RNA</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Network Biology</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Data Ming</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Openings</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+<h2>2016</h2>
+<ul>
+<li>
+<div style="float:right;" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/hgv.2016.12" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<a href="http://www.nature.com/articles/hgv201612">Integrated small copy number variations and epigenome maps of disorders of sex development</a><br/>
+Ina E Amarillo, Isabelle Nievera, Andrew Hagan, Vishwa Huchthagowder, Jennifer Heeley, Abby Hollander, Joel Koenig, Paul Austin & Ting Wang<br>
+Human Genome Variation 3, Article number: 16012 (2016)
+<div style="clear: both;"></div>
+</li>
+
+<li>
+<div style="float:right;" data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.tig.2016.03.001" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<a href="http://www.sciencedirect.com/science/article/pii/S0168952516000317">Evolution of Epigenetic Regulation in Vertebrate Genomes</a><br/>
+Rebecca F. Lowdon, Hyo Sik Jang, Ting Wang
+<br>Trends in Genetics, Available online 12 April 2016
+<div style="clear: both;"></div>
+</li>
+<li>
+<div style="float:right;" data-badge-popover="right" data-badge-type="donut" data-doi="10.1534/g3.115.025437" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<a href="http://www.g3journal.org/content/early/2016/02/16/g3.115.025437.abstract">Mapping of Variable DNA Methylation across Multiple Cell Types Defines a Dynamic Regulatory Landscape of the Human Genome</a><br/>
+Junchen Gu, Michael Stevens, Xiaoyun Xing, Daofeng Li, Bo Zhang, Jacqueline E. Payton, Eugene M. Oltz, James N. Jarvis, Kaiya Jiang, Theodore Cicero, Joseph F. Costello and Ting Wang
+<br>G3, 2016 Feb 17. pii: g3.115.025437. doi: 10.1534/g3.115.025437
+<div style="clear: both;"></div>
+</li>
+</ul>
+
+
+	<hr class="featurette-divider">
+    
+    <div class="row-fluid">
+
+          <div class="col-md-4">
+           <span class="pull-left">
+		    <p class="ocustom-footer">&copy; 2017 <a href="/" style="color: black;">The Wang Lab</a></p>
+	        <div class="ocustom-footer-small">
+	         Division of Life Science <br>
+	         Division of BioMedical Engineering<br>
+	         School of Science <br>
+	         The Hong Kong University of Science and Technology <br>
+	         <br>
+	         Clear Water Bay <br>
+	         Kowloon, Hong Kong <br>
+	        </div>
+	        </span>
+	       </div>
+	       	       
+	       <div class="col-md-5">
+	       
+	       
+	         <span class="pull-right">
+	         <script type="text/javascript" src="//rc.revolvermaps.com/0/0/2.js?i=20nuld3667c&amp;m=0&amp;s=130&amp;c=ff0000&amp;t=1" async="async"></script>
+	         </span>
+	         
+	         <span class="pull-right">
+              <a href="http://bme.ust.hk/"><img src="static/img/logo_BME.png" width="150" border=0></a>
+             </span>
+             
+             <span class="pull-right">
+	          <a href="http://science.ust.hk//"><img src="static/img/SS_logo.jpg" width="250" border=0></a>
+	         </span>
+             
+	         <span class="pull-right">
+	          <a href="http://life-sci.ust.hk/"><img src="static/img/DL_logo.jpg" width="400" border=0></a>
+	         </span>
+	         
+	         
+	         
+	      </div>
+	  
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap-dropdown.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script>
+    $(document).ready(function() {
+        $('#drop1').dropdown();
+    });
+    </script>
+
+ </body>
+</html>
